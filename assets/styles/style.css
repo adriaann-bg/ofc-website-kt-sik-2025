@@ -1,20 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f9fafb;
+}
+
+header {
+    background-color: #fff;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    border: 0;
+    box-shadow: 4px 4px 32px rgba(0, 0, 0, 0.05);
+}
+
 .p-jumbo {
     /* padding-inline: 640px; */
     padding-block: 120px;
 }
 
-@media screen and (max-width: 575px) {
-    
+.agenda-preview-1 {
+    background-image: url('');
 }
 
+.clock {
+    text-align: center;
+}
+
+.shadow-ct-1 {
+    box-shadow: 4px 4px 32px rgba(0, 0, 0, 0.05);
+}
+
+.about-organization-text {
+    max-width: 1000px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Color palette */
+.primary-color {
+    background-color: #F97316;
+}
+
+.primary-text {
+    color: #F97316;
+    font-weight: bold;
+}
+
+.btn-primary,
+.time {
+    background-color: #F97316;
+    border: 0;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #D65B06;
+    border: 0;
+    color: #fff;
+}
+
+.btn-primary:active {
+    background-color: #F97316;
+    border: 0;
+    color: #fff;
+}
+
+.btn-primary:focus {
+    background-color: #F97316;
+    border: 0;
+    color: #fff;
+}
+
+.clock-countdown-container {
+    background-color: #1F2937;
+}
+
+.days-time-countdown,
+.hours-time-countdown,
+.minutes-time-countdown {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+.clock-countdown-container p {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.clock-info {
+    color: #fff;
+}
+
+.primary-text {
+    color: #F97316;
+}
+
+@media screen and (max-width: 575px) {}
+
 @media screen and (min-width: 576px) and (max-width: 991px) {
-    
+    .agenda-overview {
+        padding-block: 1rem;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
-    
+    .agenda-overview {
+        padding-block: 1rem;
+    }
 }
 
 @media screen and (min-width: 1200px) {
-    
+    .agenda-overview {
+        padding-block: 1rem;
+    }
 }

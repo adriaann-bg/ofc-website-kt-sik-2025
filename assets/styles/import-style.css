@@ -1,8 +1,6 @@
 /* Chat GPT "marquee" */
 .marquee-wrapper {
-  width: 100%;
   overflow: hidden;
-  background: #f8f9fa;
   white-space: nowrap;
 }
 
@@ -20,4 +18,23 @@
 @keyframes marquee {
   0% { transform: translateX(0%); }
   100% { transform: translateX(-100%); }
+}
+
+
+h1, h2, h3 {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.name-web p {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
